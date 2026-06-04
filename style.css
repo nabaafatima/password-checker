@@ -1,0 +1,40 @@
+body{
+    background-color: cadetblue;
+    font-family:sans-serif;
+}
+#pass{
+    background: none;
+    font-family: sans-serif;
+    border: 1px solid;
+    height: 70px;
+    width: 350px;
+    font-size:larger;
+}
+.in{
+    position: absolute;
+    background-color:cornflowerblue;
+    color: black;
+    margin-top: 300px;
+    margin-left: 20px;
+    border: 1px solid;
+    height: 50px;
+    width: 100px;
+    transition: background-color 0.3s ease;
+    border-radius: 1px;
+}
+.in:hover{
+    background-color: blueviolet;
+}
+#app{
+    display: flex;
+    flex-direction: column;
+}
+#comments{
+    background-color: cadetblue;
+    font-family:sans-serif;
+    margin-top: 400px;
+    position: absolute;
+    resize: none;
+    border: none;
+    width: 700px;
+}
